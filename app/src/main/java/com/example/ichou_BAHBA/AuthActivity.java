@@ -111,7 +111,7 @@ public class AuthActivity extends AppCompatActivity {
 
     private boolean isValidCredentials(String username, String password) {
         // Vérifier les informations de connexion (par exemple, en comparant avec des valeurs prédéfinies)
-        return username.equals("admin") && password.equals("password");
+        return username.equals("admin") && password.equals("admin");
     }
 
     private void saveCredentials(String username, String password) {
