@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.ichou_BAHBA.MainActivity"
+            android:name=".FullMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ichou_BAHBA.AuthActivity"
+            android:name=".AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAUUusrfRuTLq8OHDq5YHlg58kncOLQtg4" />
